@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Expense Tracker Web 💰 React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple income/expense tracker app web frontend built with React and 💕
 
-## Available Scripts
+## Features
+Basic features include -
 
-In the project directory, you can run:
+- Landing Page
+- Login and Registration
+- Update Profile
+- Update Password
+- Income/Expense Category Manage
+- Income/Expense Transaction Manage
+- Income/Expense Calendar View
+- Currency Support
+- Language Selection (needs locale files)
+- Tools Sidebar with Calculator
+- Current and Last Month Summary
+- Month Wise Income Expense Chart
+- Category Wise Income Expense Chart
+- Responsive UI
 
-### `yarn start`
+## Install Instruction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Considering the backend is up and running, now download or clone this repo.
+- Open terminal and `cd` into the directory.
+- Run `npm i` to install the dependencies.
+- Copy and save `.env.example` file as `.env`. Set API host in the `.env` file if necessary.
+- Finally run the app with `npm start`.
+- The app should be running at `http://localhost:3000`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technology Used
 
-### `yarn test`
+Some libraries used that deserves mentioning.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Prime React](https://www.primefaces.org/primereact/) - The UI components used in the project on top of free template Sigma.
+- [React Tracked](https://react-tracked.js.org/) - Simple and fast global state manager. Eliminate unnecessary re-renders.
+- [React Hook Form](https://react-hook-form.com/) - Performant, flexible and extensible forms with easy-to-use validation.
+- [React Calculator](https://codepen.io/mjijackson/pen/xOzyGX) - Modified to adjust my tools sidebar.
 
-### `yarn build`
+Additionally I have added a custom template in the `extra` folder. The template is designed and created solely by me. The name is **blueberry-orange**. Which is **not free** to use or copy without permission.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## More Info
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project is solely made for learning purposes. The structure of the project and the code practices may prove useful to  new learners who are exploring new technologies.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Spare a ⭐ to keep me motivated. 😃
