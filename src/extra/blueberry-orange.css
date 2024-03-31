@@ -6,19 +6,19 @@ Not free to use or copy without permission
 */
 
 :root {
-  --color-1: #6c5871;
+  --color-1: #71585a;
   --color-2: #ff9702;
-  --color-3: #a80000;
-  --color-4: #000a90;
+  --color-3: #d90808;
+  --color-4: #28c8fa; 
   --color-5: #0b7300;
   --color-success: #55dda9;
   --color-danger: #ff858e;
   --color-info: #28c8fa;
   --color-warn: #ffcf51;
-  --color-title: #5715a5;
-  --color-subtitle: rgba(87, 21, 165, 0.8);
-  --primary-color: #6e15c1;
-  --secondary-color: #f8f2f2;
+  --color-title: rgba(16, 5, 28, 0.8);
+  --color-subtitle: #28c8fa;
+  --primary-color: #28c8fa;
+  --secondary-color: #28c8fa;
   --link-color: #e38cb7;
   --link-color-hover: #d6619c;
 }
